@@ -43,8 +43,6 @@ RUN buildDeps="gcc g++ git mercurial make automake autoconf python-dev openssl-d
     /sabnzbd/.git \
     /tmp/*
 
-EXPOSE 8080 9090
-
 VOLUME ["/config", "/data"]
 
 WORKDIR /sabnzbd
