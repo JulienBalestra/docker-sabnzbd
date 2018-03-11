@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Cameron Meindl <cmeindl@gmail.com>
 ARG GITTAG=2.3.2
-ARG PAR2TAG=v0.7.4
+ARG PAR2TAG=v0.8.0
 
 COPY requirements.txt /requirements.txt
 COPY start.sh /start.sh
